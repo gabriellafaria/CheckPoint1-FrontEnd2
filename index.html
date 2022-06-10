@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2016/03/31/18/50/book-1294676_960_720.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swicth.css">
+    <title>CheckPoint 1 - FrontEnd 2</title>
+</head>
+
+<body>
+    <header class="topPage">
+        <h1 class="principalTitle">Biblioteca de Ebooks</h1>
+    </header>
+    <main>
+        <section class="container">
+                <form>
+                    <p class="instructions">Preencha o formulário e tenha sua biblioteca de livros!</p>
+                    <div class="cardForm">
+                        <div class="titleD">
+                            <label for="iTitle" class="titleLabel">Título do livro:</label>
+                            <input type="text" class="titleInput" id="iTitle" placeholder="Insira o título do livro">
+                        </div>
+                        <div class="synopsisD">
+                            <label for="iSynopsis" class="synopsisLabel">Sinopse do livro:</label>
+                            <textarea name="" class="synopsisInput" id="iSynopsis" cols="30" rows="5"
+                                placeholder="Insira a sinopse do livro"></textarea>
+                        </div>
+                        <div class="coverD">
+                            <label for="iCover" class="coverLabel">Capa do livro:</label>
+                            <input type="text" class="coverInput" id="iCover" placeholder="Insira a URL da capa">
+                        </div>
+                        <div class="buttons">
+                            <button type="submit" class="sendButton" id="send">Enviar</button>
+                            <button type="reset" class="cancelButton" id="cancel">Limpar</button>
+                            <button type="submit" class="refreshButton" id="refresh">Refresh</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="fatherElement" class="cards">
+        
+                </div>
+            </section>
+        </main>
+    <footer>
+        <p>Desenvolvido por </p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

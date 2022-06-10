@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e5dbc2;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    font-family: 'Courgette', cursive;
+    color: rgba(128, 95, 45, 0.836);
+    padding: 0.5%;
+    background-color: #c0bda5af;
+    height: 3rem;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(https://www.hypeness.com.br/1/2020/04/livros-parede-capa-1-1.png);
+}
+
+form {
+    border: 1px solid gray;
+    border-radius: 12px;
+    color: rgba(128, 95, 45, 0.836);
+    background-color: #e6e5dbc2;
+    font-weight: bold ;
+}
+
+.item {
+    width: 30em;
+    box-sizing: border-box;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 15px;
+    text-align: center;
+    transition: 400ms ease-in-out;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+.item img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin: 2%;
+}
+
+input {
+    display: block;
+    margin: 3px;
+    width: 18rem;
+    height: 1.5rem;
+    text-align: center;
+    position: relative;
+    left: 11%;
+    border-radius: 5px;
+    border: 1px solid #c0bda5af;
+    background-color: #e6e5dbf1;
+    transition: 400ms ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+
+textarea {
+    display: block;
+    margin: 3px;
+    resize: none;
+    position: relative;
+    left: 11%;
+    border-radius: 5px;
+    width: 18rem;
+    height: 5rem;
+    border: 1px solid #c0bda5af;
+    background-color: #e6e5dbf1;
+    transition: 400ms ease-in-out;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.cardForm {
+    margin: 7px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem 1%;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.instructions {
+    margin: 7px;
+}
+
+.titleD,
+.synopsisD,
+.coverD {
+    margin: 15px;
+}
+
+button {
+    width: 4rem;
+    height: 1.6rem;
+    border-radius: 15px;
+    border: 1px solid gray;
+    margin: 1%;
+}
+
+.sendButton {
+    background-color: #e4f1d8dc;
+    border: 1px solid #a1af94dc;
+}
+
+.cancelButton {
+    background-color: #bd81898f;
+    border: 1px solid #8a575e8f;
+}
+
+footer {
+    background-color: #c0bda5af;
+    padding: 10px;
+    position: fixed;
+    bottom: 0.5px;
+    width: 100%;
+    text-align: center;
+}

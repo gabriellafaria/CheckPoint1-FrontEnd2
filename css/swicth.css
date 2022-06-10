@@ -1,0 +1,20 @@
+.synopsisLabel:hover, .titleLabel:hover, .coverLabel:hover, button:hover{
+    font-style: italic;
+}
+
+input:focus {
+    background-color: #d8d4c4ad;
+}
+
+input:hover, textarea:hover {
+    transform: scale(1.1,1.1);
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+
+.item:hover {
+    transform: translate(10px);
+}
