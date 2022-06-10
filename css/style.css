@@ -119,6 +119,7 @@ button {
     border-radius: 15px;
     border: 1px solid gray;
     margin: 1%;
+    color: black;
 }
 
 .sendButton {
