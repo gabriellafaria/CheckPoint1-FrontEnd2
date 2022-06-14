@@ -23,16 +23,22 @@
                     <div class="cardForm">
                         <div class="titleD">
                             <label for="iTitle" class="titleLabel">Título do livro:</label>
-                            <input type="text" class="titleInput" id="iTitle" placeholder="Insira o título do livro">
+                            <input type="text" class="titleInput info" id="iTitle" placeholder="Insira o título do livro">
+                            <small id="nameValidation"></small>
+                        </div>
+                        <div class="authorD">
+                            <label for="iAuthor" class="authorLabel">Autor do livro:</label>
+                            <input type="text" class="authorInput info" id="iAuthor" placeholder="Insira o título do livro">
                         </div>
                         <div class="synopsisD">
                             <label for="iSynopsis" class="synopsisLabel">Sinopse do livro:</label>
-                            <textarea name="" class="synopsisInput" id="iSynopsis" cols="30" rows="5"
+                            <textarea name="" class="synopsisInput info" id="iSynopsis" cols="30" rows="5"
                                 placeholder="Insira a sinopse do livro"></textarea>
+                            <small id="synopsisValidation"></small>
                         </div>
                         <div class="coverD">
                             <label for="iCover" class="coverLabel">Capa do livro:</label>
-                            <input type="text" class="coverInput" id="iCover" placeholder="Insira a URL da capa">
+                            <input type="text" class="coverInput info" id="iCover" placeholder="Insira a URL da capa">
                         </div>
                         <div class="buttons">
                             <button type="submit" class="sendButton" id="send">Enviar</button>

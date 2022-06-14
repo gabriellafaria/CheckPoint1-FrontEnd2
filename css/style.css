@@ -10,13 +10,13 @@
 body {
     background-color: #e6e5dbc2;
     font-family: 'Raleway', sans-serif;
+    background-image: url(https://www.hypeness.com.br/1/2020/04/livros-parede-capa-1-1.png);
 }
 
 header {
     font-family: 'Courgette', cursive;
-    color: rgba(128, 95, 45, 0.836);
     padding: 0.5%;
-    background-color: #c0bda5af;
+    background-color: #c0bda5f8;
     height: 3rem;
     text-align: center;
     font-family: 'Courgette', cursive;
@@ -27,22 +27,23 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(https://www.hypeness.com.br/1/2020/04/livros-parede-capa-1-1.png);
+   
 }
 
 form {
     border: 1px solid gray;
     border-radius: 12px;
-    color: rgba(128, 95, 45, 0.836);
-    background-color: #e6e5dbc2;
-    font-weight: bold ;
+    color: #000000;
+    background-color: #c0bda5f8;
+    font-weight: bold;
+    margin-top: 2rem;
 }
 
 .item {
-    width: 30em;
+    width: 30rem;
     box-sizing: border-box;
-    padding: 1.5em;
-    margin-bottom: 1em;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
     border-radius: 15px;
     text-align: center;
     transition: 400ms ease-in-out;
@@ -89,6 +90,11 @@ textarea {
     font-size: 12px;
 }
 
+small {
+    color: #8015238f;
+    font-weight: bold;
+}
+
 .cardForm {
     margin: 7px;
     text-align: center;
@@ -105,12 +111,18 @@ textarea {
 
 .instructions {
     margin: 7px;
-}
+} 
 
 .titleD,
 .synopsisD,
-.coverD {
+.coverD,
+.authorD {
     margin: 15px;
+}
+
+.cards p {
+    font-size: 14px;
+    margin: 1em;
 }
 
 button {
@@ -133,7 +145,7 @@ button {
 }
 
 footer {
-    background-color: #c0bda5af;
+    background-color: #c0bda5f8;
     padding: 10px;
     position: fixed;
     bottom: 0.5px;
